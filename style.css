@@ -1,0 +1,83 @@
+html {
+    cursor: url(imagens/mata_mosquito.png) 30 30, auto;
+}
+
+body {
+    background: url(imagens/bg-e.jpg);
+    width: 1500px;
+    height: 300px;
+    background-repeat: no-repeat;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.mosquito1 {
+    width: 50px;
+    height: 50px;
+}
+
+.mosquito2 {
+    width: 70px;
+    height: 70px;
+}
+
+.mosquito3 {
+    width: 90px;
+    height: 90px;
+}
+
+ .ladoA {
+     transform: scaleX(1);
+ }
+
+ .ladoB {
+     transform: scaleX(-1);
+ }
+
+ .painel {
+     position: absolute;
+     width: 190px;
+     padding: 10px;
+     left: 10px;
+     bottom: 10px;
+     border-top: solid 1px #fff;
+     background-color: #fff;
+     opacity: 0.7;
+ }
+
+ .vidas {
+     float: left;
+ }
+
+ .cronometro { 
+     float: left;
+     font-size: 20px;
+     font-weight: bold;
+ }
+
+.iniciarjogo {
+    font-size: 30px;
+    color: #ffff;
+    width: 200px;
+    border-radius: 8px;
+    background-color:  #e62121;
+    margin-left: 762px;
+}
+
+.reiniciar {
+    font-size: 30px;
+    color: #ffff;
+    width: 150px;
+    border-radius: 8px;
+    background-color: #e62121;
+    margin-left: 800px;
+}
+
+.game, .vitoria, .game_over {
+    margin-top: 50px;
+    margin-left: 460px;
+}
+
+.selecione {
+    cursor: pointer;
+    margin-left: 215px;
+    text-align: center;
+}
